@@ -34,6 +34,9 @@ struct Vector2d {
     Vector2d() : a(0), b(0) { }
     Vector2d(int a_, int b_) : a(a_), b(b_) { }
 
+
+    // Modern C++ optimizes away unnecessary copies or moves when returning objects, making return-by-value efficient through mechanisms
+    // like RVO (Return Value Optimization).
     Vector2d addVectors(const Vector2d& second) {
         Vector2d result; // default c-tor
 

@@ -81,7 +81,7 @@ int main()
 
     {
         int iv_values[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-        Vector<int> iv = Vector<int>(10, &iv_values[0]);
+        auto iv = Vector<int>(10, &iv_values[0]);
         iv.data[2] = 5;
 
         iv.setIndex(3,7);
@@ -94,7 +94,7 @@ int main()
         {
             cout << "Double Vectors: " << endl;
             double dv_values[5] = { 1.1, 2.2, 3.3, 4.4, 5.5 };
-            Vector<double> dv = Vector<double>(5, &dv_values[0]);
+            auto dv = Vector<double>(5, &dv_values[0]);
 
             print(dv);
         }

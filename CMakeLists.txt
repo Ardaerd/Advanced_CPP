@@ -7,4 +7,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(Advance_CPP_1 main.cpp)
 add_executable(Advance_CPP_2 week_2.cpp)
+add_executable(Advance_CPP_3 exercise_3.cpp)
+
+
+
 

@@ -128,6 +128,7 @@ int main()
 //    transform(l, &dosmt2);
     transform(l, obj);
 
+    // using lambda to cunstruct Object at the compiler time
     transform(v, [K=5, M=10](int a) { return (a+K)*M; } );
     print(v);
     print(l);

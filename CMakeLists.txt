@@ -10,6 +10,10 @@ add_executable(Advance_CPP_2 week_2.cpp)
 add_executable(Advance_CPP_3 exercise_3.cpp)
 add_executable(Advance_CPP_4 exercise_4.cpp)
 add_executable(Advance_CPP_5 exercise_5.cpp)
+add_executable(Advance_CPP_6 exercise_6.cpp)
+add_executable(Advance_CPP_7 exercise_7.cpp)
+
+
 
 
 

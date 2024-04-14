@@ -40,12 +40,12 @@ int main(int argc, char* argv[])
     auto i = 5;
     func(i);
 
-    auto t1 = TypeDisplay<int_ref&>{};  // &
-    auto t2 = TypeDisplay<int_ref&&>{};  // &
-    auto t3 = TypeDisplay<int_ref_ref&>{};  // &
-    auto t4 = TypeDisplay<int_ref_ref&&>{};  // &&
+//    auto t1 = TypeDisplay<int_ref&>{};  // &
+//    auto t2 = TypeDisplay<int_ref&&>{};  // &
+//    auto t3 = TypeDisplay<int_ref_ref&>{};  // &
+//    auto t4 = TypeDisplay<int_ref_ref&&>{};  // &&
 
-    using K = std::remove_reference<int&&>::type;
-    auto k = TypeDisplay<K>{};
+//    using K = std::remove_reference<int&&>::type;
+//    auto k = TypeDisplay<K>{};
     return 0;
 }

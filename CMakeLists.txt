@@ -14,6 +14,8 @@ add_executable(Advance_CPP_6 exercise_6.cpp)
 add_executable(Advance_CPP_7 exercise_7.cpp)
 add_executable(Advance_CPP_8 exercise_8.cpp)
 add_executable(Advance_CPP_9 exercise_9.cpp)
+add_executable(Advance_CPP_10 exercise_10.cpp)
+
 
 
 

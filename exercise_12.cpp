@@ -15,7 +15,7 @@ struct HeapValue {
   T* ptr = nullptr;
 
   HeapValue() : ptr(new T{}) {}
-  HeapValue(const T& t) : ptr(new T{t}) { cout << "old ctor called!" << endl; }
+  HeapValue(const T& t) : ptr(new T{t}) { cout << "old style ctor called!" << endl; }
   // copy ctor
   HeapValue(const HeapValue<T>& other) : ptr(new T{*other.ptr}) { cout << "Copy ctor is called!" << endl; }
   // move ctor

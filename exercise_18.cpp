@@ -50,6 +50,7 @@ void print(const tuple<Ts...>& ts) {
     const auto size = sizeof...(Ts);
     cout << "tuple has " << size << " dimensions." << endl;
 
+    // this is a compile time for loop
     ((cout << get<Ts>(ts) << endl), ...);
 
 // this for loop is run time but we should do the for in compile time

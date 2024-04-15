@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.5)
 
 project(Advance_CPP LANGUAGES CXX)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(Advance_CPP_1 main.cpp)
@@ -20,6 +20,7 @@ add_executable(Advance_CPP_12 exercise_12.cpp)
 add_executable(Advance_CPP_13 exercise_13.cpp)
 add_executable(Advance_CPP_14 exercise_14.cpp)
 add_executable(Advance_CPP_15 exercise_15.cpp)
+add_executable(Advance_CPP_16 exercise_16.cpp)
 
 
 

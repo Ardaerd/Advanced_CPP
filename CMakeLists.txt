@@ -26,6 +26,10 @@ add_executable(Advance_CPP_18 exercise_18.cpp)
 add_executable(Advance_CPP_19 exercise_19.cpp)
 add_executable(Advance_CPP_20 exercise_20.cpp)
 add_executable(Advance_CPP_21 exercise_21.cpp)
+add_executable(Advance_CPP_22 exercise_22.cpp)
+add_executable(Advance_CPP_23 exercise_23.cpp)
+add_executable(Advance_CPP_24 exercise_24.cpp)
+add_executable(Advance_CPP_25 exercise_25.cpp)
 
 
 

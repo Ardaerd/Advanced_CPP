@@ -35,7 +35,7 @@ int main() {
     decltype(auto) value3 = get_int_byval();
     decltype(auto) value4 = get_int_byref();
 
-    auto t = Debug<decltype(value4)>{};
+//    auto t = Debug<decltype(value4)>{};
 
     return 0;
 }

@@ -12,6 +12,7 @@
 
 using namespace std;
 
+// is a type-safe wrapper that represents an optional value, which may or may not be present, providing a clear and type-safe way to handle cases where a value might be absent.
 // Function to find an element in a vector that meets certain condition
 std::optional<int> findFirstEven(const std::vector<int>& data) {
 
